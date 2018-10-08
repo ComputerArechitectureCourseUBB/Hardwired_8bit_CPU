@@ -48,7 +48,12 @@ PhaseCounter: process(clk,rst)
 				  if rst = '1' then 
 						phs <= "00";
 				  elsif 	rising_edge(clk) then 
-						phs <= phs + 1; 
+						if phs < "10" then
+ 						phs <= phs + 1;
+                        else
+                        phs <= "00";
+                        end if;						
+						
 				  end if;		
 				  end process;
 -- contiunous assignment 

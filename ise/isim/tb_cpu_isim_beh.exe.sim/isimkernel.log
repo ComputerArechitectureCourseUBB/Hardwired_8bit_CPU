@@ -2,9 +2,9 @@ Command line:
    tb_cpu_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  34471
+     -socket  41651
 
-Mon Oct  8 11:59:29 2018
+Mon Oct  8 12:50:04 2018
 
 
  Elaboration Time: 0.04 sec
@@ -19,12 +19,12 @@ Mon Oct  8 11:59:29 2018
  Total Processes        : 43
  Total Traceable Variables  : 17
  Total Scalar Nets and Variables : 2744
-Total Line Count : 90
-Total Line Count : 90
+Total Line Count : 92
+Total Line Count : 92
 
- Total Simulation Time: 0.06 sec
+ Total Simulation Time: 0.05 sec
 
  Current Memory Usage: 150.938 Meg
 
-Mon Oct  8 12:00:20 2018
+Mon Oct  8 12:53:47 2018
 
