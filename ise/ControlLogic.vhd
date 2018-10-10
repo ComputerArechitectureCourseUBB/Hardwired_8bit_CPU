@@ -72,7 +72,7 @@ aluop <=  op2;
 -- Program Counter pcsel logic
  pcsel <= '1' when (phs = "00" or phs = "01") else '0';
 -- Immediate load imload logic
- imload <= '1' when phs = "01" else '0'; 		
+ imload <= instr(7) when phs = "01" else '0'; 		
 -- Instruction Register load irload  logic
  irload <= '1' when phs = "00" else '0'; 
 -- PC Load pcload logic
